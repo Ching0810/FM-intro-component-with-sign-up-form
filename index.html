@@ -3,29 +3,61 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="./style.css">
   <title>Ching | Intro component with sign up form</title>
 
 </head>
 <body>
-
-  Learn to code by watching others
-
-  See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
-  but understanding how developers think is invaluable. 
-
-  Try it free 7 days then $20/mo. thereafter
-
-  First Name 
-  Last Name 
-  Email Address
-  Password
-
-  Claim your free trial 
-
-  By clicking the button, you are agreeing to our Terms and Services
+  <div class="container"> <!-- set background image -->
+    <div class="card"> <!-- all card content -->
+      <div class="left"> <!-- left panel for grid system -->
+        <div class="content">
+          <h1>Learn to code by watching others</h1>
+          <p>See how experienced developers solve problems in real-time. Watching scripted tutorials is great,
+            but understanding how developers think is invaluable.</p>
+        </div>
+      </div>
+      <div class="right"> <!-- right panel for grid system -->
+        <div class="discount">
+          <p><span class="bold">Try it free 7 days</span> then $20/mo. thereafter</p>
+        </div>
+        <form id="user-form">
+          <div class="form-group">
+            <input type="text" id="first-name" placeholder="First Name" required>
+            <label for="first-name">
+              <img src="./images/icon-error.svg" alt="">
+              <p>First Name cannot be empty</p>
+            </label>
+          </div>
+          <div class="form-group">
+            <input type="text" id="last-name" placeholder="Last Name" required>
+            <label for="last-name">
+              <img src="./images/icon-error.svg" alt="">
+              <p>Last Name cannot be empty</p>
+            </label>
+          </div>
+          <div class="form-group">
+            <input type="email" id="email" placeholder="Email Address" required>
+            <label for="email">
+              <img src="./images/icon-error.svg" alt="">
+              <p>Looks like this is not an email</p>
+            </label>
+          </div>
+          <div class="form-group">
+            <input type="password" id="password" placeholder="Password" required>
+            <label for="password">
+              <img src="./images/icon-error.svg" alt="">
+              <p>Password cannot be empty</p>
+            </label>
+          </div>
+          <button type="submit" id="submit-button">claim your free trial</button>
+          <p class="agree">By clicking the button, you are agreeing to our <span>Terms and Services</span></p>
+        </form>
+      </div>
+    </div>
+  </div>
   
+  <script src="./index.js"></script>
 </body>
 </html>
