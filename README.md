@@ -1,4 +1,4 @@
-# Frontend Mentor - Base apparel coming soon
+# Frontend Mentor - Intro component with sign up form
 
 This is a layout practicing project from frontend mentor (https://www.frontendmentor.io).
 <br/>
@@ -48,7 +48,7 @@ Wrong email form (20231014):
 
 ### Links
 
-Live link: https://admirable-baklava-fdfa6c.netlify.app/
+Live link: [https://admirable-baklava-fdfa6c.netlify.app/](https://steady-wisp-dc632a.netlify.app/)
 
 ## My process
 
