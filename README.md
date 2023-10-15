@@ -2,7 +2,7 @@
 
 This is a layout practicing project from frontend mentor (https://www.frontendmentor.io).
 <br/>
-Project builded accroding to RWD design including mobile, tablet & desktop mode. 
+Project builded according to RWD design including mobile, tablet & desktop mode. 
 <br/>
 Please refer to [link section](#links) or [screenshot section](#screenshot) for results.
 
@@ -48,7 +48,7 @@ Wrong email form (20231014):
 
 ### Links
 
-Live link: [https://admirable-baklava-fdfa6c.netlify.app/](https://steady-wisp-dc632a.netlify.app/)
+Live link: https://steady-wisp-dc632a.netlify.app/
 
 ## My process
 
