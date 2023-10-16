@@ -2,7 +2,7 @@
 
 This is a layout practicing project from frontend mentor (https://www.frontendmentor.io).
 <br/>
-Project builded according to RWD design including mobile, tablet & desktop mode. 
+Project builded according to RWD design including mobile & desktop mode. 
 <br/>
 Please refer to [link section](#links) or [screenshot section](#screenshot) for results.
 
@@ -32,17 +32,18 @@ Please refer to [link section](#links) or [screenshot section](#screenshot) for 
 
 ### Screenshot
 
-Mobile mode (20231013):
+Mobile mode (20231015):
 <br/>
+<img src='./images/Screenshot 2023-10-16 at 17.00.56.png' width=300px>
 
 
-Desktop mode  (20231013):
+Desktop mode  (20231015):
 <br/>
+<img src='./images/Screenshot 2023-10-16 at 17.01.12.png' width=700px>
 
-
-Wrong email form (20231014):
+Wrong input detection (20231016):
 <br/>
-
+<img src='./images/Screenshot 2023-10-16 at 17.01.42.png' width=700px>
 
 
 
@@ -67,13 +68,13 @@ Live link: https://steady-wisp-dc632a.netlify.app/
 1. Follow mobile first principle to finish responsive web design
 2. Use <picture>, <source> element to achieve RWD design
 3. Use <img> element combine with object-fit, height & width property to control background image always as height as card
-4. Use JS to control email validation, pop up custom error message with wrong email form
+4. Use JS to control input validation, pop up custom error message with wrong input form
+5. Validate form contain multiple inputs, and pop up error message with wrong input form according to individual input
 
 ### Continued development
 
 1. Simplify redundant class and merge multiple CSS setting
-2. Input border color with email validation still exist weird performance (already fixed)
-3. Input should automatically detect whether typed in email is validated and modify CSS setting
+2. JS simplify
 
 ### Useful resources
 

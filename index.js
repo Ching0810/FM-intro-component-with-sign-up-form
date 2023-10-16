@@ -25,7 +25,6 @@ button.addEventListener('click', () => {
 inputs.forEach(input => {
   input.addEventListener('input', () => {
     validated()
-    // console.log(isAllPass)
   })
 })
 
