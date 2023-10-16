@@ -15,9 +15,10 @@ form.addEventListener('submit', (event)  => {
 
 
 button.addEventListener('click', () => {
-  // console.log(isAllPass)
   if (isAllPass.length !== 0) {
     alert('All inputs are good!!!')
+  } else {
+    alert('Please check all required inputs are match format!!!')
   }
 })
 
@@ -37,14 +38,14 @@ function validated () {
     } else if (input.type === 'email') {
       isEmail(input, resultsArray)
     }
-  })
-  if (resultsArray.length !== inputArray.length) {
-    isValid = false
-    isAllPass.pop()
-  } else {
-    isValid = true
-    isAllPass.push('All inputs are good!');
+    if (resultsArray.length !== inputArray.length) {
+      isValid = false
+      isAllPass.pop()
+    } else {
+      isValid = true
+      isAllPass.push('All inputs are good!');
     }
+  })
 }
 
 function emailForm (input) {
